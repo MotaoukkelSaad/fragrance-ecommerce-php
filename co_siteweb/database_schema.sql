@@ -1,6 +1,9 @@
 -- =====================================================
--- FRAGRANCE BOUTIQUE - COMPLETE DATABASE SCHEMA
+-- db_fragrance - COMPLETE DATABASE SCHEMA
 -- =====================================================
+CREATE DATABASE db_fragrance;
+
+USE db_fragrance;
 
 -- Users table with authentication
 CREATE TABLE `users` (
@@ -64,10 +67,6 @@ CREATE TABLE `order_items` (
   FOREIGN KEY (`product_id`) REFERENCES `products`(`id`),
   INDEX idx_order_id (order_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- Insert admin user (password: admin123)
-INSERT INTO `users` (name, email, password, role) VALUES 
-('Admin User', 'admin@boutique.com', '$2y$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/KFm', 'admin');
 
 -- Insert sample products
 INSERT INTO `products` (name, price, gender, image, description, stock) VALUES 
