@@ -1,0 +1,43 @@
+{
+  "name": "fragrance-boutique/ecommerce",
+  "description": "FragranceBoutique - Premium E-commerce Platform for Fragrances",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Saad-Em",
+      "email": "dev@fragranceboutique.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-mysqli": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.0",
+    "squizlabs/php_codesniffer": "^3.7"
+  },
+  "autoload": {
+    "files": [
+      "config.php",
+      "auth.php"
+    ]
+  },
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "lint": "phpstan analyse --level=5 *.php",
+    "cs-check": "phpcs --standard=PSR12 *.php"
+  },
+  "keywords": [
+    "ecommerce",
+    "fragrance",
+    "perfume",
+    "shopping",
+    "boutique"
+  ],
+  "homepage": "https://fragranceboutique.com",
+  "support": {
+    "issues": "https://github.com/Saad-Em/fragrance-boutique/issues"
+  }
+}
