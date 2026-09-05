@@ -1,6 +1,6 @@
 # FragranceBoutique - Complete E-Commerce Fragrance Store
 
-FragranceBoutique is a fully functional PHP-based e-commerce website for a premium fragrance boutique. The platform features a complete product catalog, shopping cart system, user authentication, admin dashboard, and an intelligent FAQ chatbot assistant.
+FragranceBoutique is a fully functional PHP-based e-commerce website for a premium fragrance boutique. The platform features a complete product catalog, shopping cart system, user authentication, admin dashboard, and an FAQ chatbot assistant.
 
 ---
 
@@ -14,7 +14,7 @@ This project is a complete online fragrance store with:
 - 💳 Checkout process with shipping options
 - 📧 Order confirmation and email notifications
 - 👤 User registration and authentication
-- ❓ Intelligent FAQ chatbot assistant
+- ❓ FAQ chatbot assistant
 - 📱 Fully responsive design (mobile, tablet, desktop)
 
 ### **Admin Features:**
@@ -69,7 +69,7 @@ faqs	        FAQ database (71 entries)
 settings	    Store configuration
 
 ### **🤖 FAQ Chatbot System
-The intelligent FAQ assistant includes:
+The FAQ assistant includes:
 71 Comprehensive FAQs covering:
 
 About Us
@@ -164,8 +164,7 @@ Browse by categories
 Mobile-friendly interface
 Contact support link
 
-### **👥 Team
-Member	                    Role	                    Contribution
-EL MOTAOUKKEL SAAD	    Full-Stack Developer	    Backend, Database, Admin
-JOUT OUAIL	            Full-Stack Developer	    Frontend, UI/UX, FAQ System
+### **My Role
+Full-Stack Web Developer
+Developed the application from database design and backend development to frontend implementation and deployment.
 
